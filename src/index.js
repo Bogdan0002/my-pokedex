@@ -8,7 +8,7 @@ import PokemonDetails from './components/PokemonDetails';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/my-pokedex",
     element: <App />,
   },
   {
@@ -17,14 +17,14 @@ const router = createBrowserRouter([
   },
 ]);
 
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(<RouterProvider router={router} />);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<RouterProvider router={router} />);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
-);
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <BrowserRouter>
+//     <App />
+//   </BrowserRouter>
+// );
 
-reportWebVitals();
+// reportWebVitals();
