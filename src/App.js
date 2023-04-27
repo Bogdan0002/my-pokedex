@@ -6,12 +6,15 @@ import PokemonDetails from './components/PokemonDetails';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Pokedex />} />
-        <Route path="/pokemon/:id" element={<PokemonDetails />} />
-      </Routes>
-    </Router>
+    <div className="App">
+      <Pokedex/>
+    </div>
+    // <Router>
+    //   <Routes>
+    //     <Route path="/" element={<Pokedex />} />
+    //     <Route path="/pokemon/:id" element={<PokemonDetails />} />
+    //   </Routes>
+    // </Router>
   );
 }
 
